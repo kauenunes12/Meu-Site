@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./DevClub - Tesla_files/style.css">
+    <title>DevClub - Tesla</title>
+
+</head>
+
+<body>
+    <img src="./DevClub - Tesla_files/logo (2).png" alt="logo da tesla" class="logo">
+
+    <ul class="lista">
+        <li class="item">
+            <video src="./img/model-y.mp4" muted="" loop="" autoplay=""></video>
+
+            <div class="info-carro">
+                <h1>Model Y</h1>
+                <p class="sub-titulo">Parcelar a partir de 499 dólares</p>
+            </div>
+
+            <div class="rodape">
+                <button onclick="aparecerformulario()">Comprar Agora</button>
+                <button class="test-drive">Faça um Test-Drive</button>
+                <p class="texto-rodape">Não garantimos seu veículo imediatamente.Consultar estoque*</p>
+            </div>
+        </li>
+
+        <li class="item">
+            <img src="./DevClub - Tesla_files/model-3.png" class="img-tesla" alt="imagem model 3">
+
+            <div class="info-carro">
+                <h1>Model 3</h1>
+                <p class="sub-titulo">Parcelar a partir de 499 dólares</p>
+            </div>
+
+        </li>
+
+        <li class="item">
+            <img src="./DevClub - Tesla_files/model-x.png" class="img-tesla" alt="imagem model x">
+
+            <div class="info-carro">
+                <h1 class="model">Model X</h1>
+                <p class="sub-titulox">Compre agora o seu Tesla</p>
+            </div>
+
+        </li>
+    </ul>
+
+    <div class="formulario" style="left: -50%;">
+        <button onclick="desaparecerformulario()">Fechar</button>
+        <script type="text/javascript" src="./DevClub - Tesla_files/241928032773055" data-iframe-appended="true"></script><iframe title="Tesla " src="./DevClub - Tesla_files/tesla-.html" allow="geolocation; microphone; camera; fullscreen" name="241928032773055" id="241928032773055" scrolling="no" style="width: 10px; min-width: 100%; display: block; overflow: hidden; height: 580px; border: none;"></iframe>
+    </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+<script src="./DevClub - Tesla_files/scripts.js.download"></script>
+
+</body></html>
